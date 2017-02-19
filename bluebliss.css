@@ -56,9 +56,17 @@ position:relative; bottom:0px;
 background-image:url(tab2.gif);
 }
 
-a
-{
-text-decoration:none;
+a:link {
+    color: #008B45;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00FF00;
+}
+
+a:visited {
+    color: #EE9A00;
 }
 
 .link a{
